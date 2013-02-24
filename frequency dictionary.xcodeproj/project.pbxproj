@@ -51,6 +51,7 @@
 		86E5B7E116DA808400748055 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		86E5B7E316DA808400748055 /* frequency_dictionaryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = frequency_dictionaryTests.h; sourceTree = "<group>"; };
 		86E5B7E416DA808400748055 /* frequency_dictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = frequency_dictionaryTests.m; sourceTree = "<group>"; };
+		86E5B7EE16DA80B300748055 /* frequency dictionary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "frequency dictionary.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 		86E5B7BD16DA807800748055 /* frequency dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				86E5B7EE16DA80B300748055 /* frequency dictionary.entitlements */,
 				86E5B7C916DA808100748055 /* STAppDelegate.h */,
 				86E5B7CA16DA808100748055 /* STAppDelegate.m */,
 				86E5B7CC16DA808200748055 /* MainMenu.xib */,
@@ -387,6 +389,7 @@
 		86E5B7E916DA808400748055 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "frequency dictionary/frequency dictionary-Prefix.pch";
@@ -399,6 +402,7 @@
 		86E5B7EA16DA808400748055 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "frequency dictionary/frequency dictionary-Prefix.pch";
